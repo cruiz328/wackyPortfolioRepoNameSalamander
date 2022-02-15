@@ -228,3 +228,13 @@ body{
         height: ; */
     }
 }
+
+.sunImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.squints1 {
+    float: initial;
+}
