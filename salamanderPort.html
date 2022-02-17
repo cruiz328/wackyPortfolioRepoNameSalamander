@@ -6,63 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./salamanderPort.css">
+    <link rel="stylesheet" href="./CSS/salamanderPort.css">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
 
     <title>Chris Ruiz Portfolio</title>
 
 </head>
 
 <body>
-
-<!-- OLD NAV_BAR
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">Bio</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
--->
 <!-- NEW NAVBAR/BOOTSTRAP -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Bio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">C.L.R.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Other</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 <!-- End of new bootstrap NAVBAR-->
 
+<!-- Start of new bootstrap Header/home-->
+<!--
     <section id="home">
         <div class="main">
             <h1 class="headings">Christian Lemuel<br>Ruiz-Vasquez</h1>
-            <button class="btn">
-                Contact Me
-            </button>
+            <button class="btn">Contact Me</button>
         </div>
     </section>
+  -->
+<!-- End of new bootstrap Header/Home-->
+
+<!-- Start of new bootstrap Header/Home-->
+<header>
+
+  <!-- Background image -->
+  <div class="p-5 text-center bg-image"
+    style="
+      background-image: url('./assets/SalvyVolc.JPG');
+      height: 400px;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Christian "Lemmy" Ruiz</h1>
+          <h4 class="mb-3">Full Stack Developer</h4>
+          <a class="letsTalk btn btn-outline-light btn-lg" href="#!" role="button">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+<!-- End of new bootstrap Header/Home-->
+
+
 
     <section id="about">
         <div id="pic">
@@ -93,7 +111,8 @@
 
     <section id="portfolio">
         <figure class="figure">
-          <img width="600" height="400" src="./assets/Screen Shot 2022-02-14 at 4.54.13 PM.png" class="figure-img img-fluid rounded" alt="...">
+          <h3>Project 1</h3>
+          <img width="600" height="400" src="./assets/Project 1 ScreenShot.png" class="figure-img img-fluid rounded" alt="...">
           <figcaption class="figure-caption">Squinty Spiders Dev Presenets:<br>6 Feet Away Gaming</figcaption>
         </figure>
         <a href="https://ulisesrosas.github.io/6-FeetAway-Gaming/">CLICK ME FOR AWESOMENESS</a>
@@ -153,8 +172,8 @@
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Google -->
+       <!-- <section class="mb-4"> -->
+          <!-- Google
           <a
             class="btn btn-primary btn-floating m-1"
             style="background-color: #dd4b39;"
@@ -162,8 +181,8 @@
             role="button"
             ><i class="fab fa-google"></i
           ></a>
-    
-          <!-- Instagram -->
+                -->
+          <!-- Instagram
           <a
             class="btn btn-primary btn-floating m-1"
             style="background-color: #ac2bac;"
@@ -171,8 +190,8 @@
             role="button"
             ><i class="fab fa-instagram"></i
           ></a>
-    
-          <!-- Linkedin -->
+                --> 
+          <!-- Linkedin
           <a
             class="btn btn-primary btn-floating m-1"
             style="background-color: #0082ca;"
@@ -180,7 +199,8 @@
             role="button"
             ><i class="fab fa-linkedin-in"></i
           ></a>
-          <!-- Github -->
+        -->
+          <!-- Github
           <a
             class="btn btn-primary btn-floating m-1"
             style="background-color: #333333;"
@@ -189,6 +209,7 @@
             ><i class="fab fa-github"></i
           ></a>
         </section>
+        -->
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
