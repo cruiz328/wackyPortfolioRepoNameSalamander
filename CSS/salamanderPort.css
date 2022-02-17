@@ -15,6 +15,20 @@ html{
     font-weight: 300;
     transition: ease-in-out;
 }
+.yoYo {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;   
+    text-shadow: 0 0 5px royalblue, 0 0 10px pink, 0 0 15px paleturquoise;
+    transition: ease;
+}
+.remoKick:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;   
+    text-shadow: 0 0 5px green, 0 0 10px goldenrod, 0 0 15px paleturquoise;
+    transition: ease;
+}
 /* Content */
 body{
     margin: 0;
@@ -35,7 +49,7 @@ body{
     text-align: center;
     margin: 40px 0px;
 }
-.btn{
+.r2d2 {
     padding: 10px 35px;
     background-color: transparent;
     border: 1px solid white;
@@ -43,7 +57,7 @@ body{
     outline: none;
     transition: .6s ease;
 }
-.btn:hover{
+.r2d2:hover {
     cursor: pointer;
     background-color: whitesmoke;
     color: black;
@@ -58,7 +72,7 @@ body{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    background-color: rgb(204, 85, 0);x
+    background-image: linear-gradient(forestgreen, royalblue);
 }
 #pic{
     display: flex;
@@ -90,20 +104,7 @@ body{
     align-items: center;
     padding: 20px;
     background-color: forestgreen;
-}
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    box-sizing: border-box;
-}
-.gallery img{
-    width: 360px;
-    height: 240px;
-    border: black solid 1px;
-    margin: 10px;
-    
-}
+}   
 .img1:hover {
     width: 370px;
     height: 250px;
