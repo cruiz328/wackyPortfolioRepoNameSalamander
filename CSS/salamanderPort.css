@@ -29,7 +29,15 @@ html{
     text-shadow: 0 0 5px green, 0 0 10px goldenrod, 0 0 15px paleturquoise;
     transition: ease;
 }
+.peonies {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;   
+    text-shadow: 0 0 5px green, 0 0 10px goldenrod, 0 0 15px paleturquoise;
+    transition: ease;
+}
 /* Content */
+
 body{
     margin: 0;
     padding: 0;
@@ -49,7 +57,7 @@ body{
     text-align: center;
     margin: 40px 0px;
 }
-.r2d2 {
+.btn {
     padding: 10px 35px;
     background-color: transparent;
     border: 1px solid white;
@@ -57,7 +65,7 @@ body{
     outline: none;
     transition: .6s ease;
 }
-.r2d2:hover {
+.btn:hover {
     cursor: pointer;
     background-color: whitesmoke;
     color: black;
@@ -72,7 +80,7 @@ body{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    background-image: linear-gradient(forestgreen, royalblue);
+    background-image: linear-gradient(forestgreen, goldenrod);
 }
 #pic{
     display: flex;
@@ -117,4 +125,15 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
+}
+.horses {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+}
+
+.w-100 {
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px;  
 }
