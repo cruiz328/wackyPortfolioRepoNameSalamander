@@ -118,6 +118,7 @@ body{
         float: left;
         width: 33.33%;
         padding: 5px;
+        justify-content: space-between;
       }
       
       /* Clear floats after image containers */
